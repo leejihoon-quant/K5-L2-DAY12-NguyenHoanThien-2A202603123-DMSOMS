@@ -1,0 +1,5 @@
+File: export_final.zip · chỉ kiểm ảnh: D01, D02
+Ảnh: 2 · đã có frame_meta: 2 · số đối tượng: face=2, face13=1, hand=4, person=2
+Kết quả: 0 lỗi, 0 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
+
+Ghi chu: file nay chay tren export_final.zip (ban cuoi) voi --only D01,D02, khong phai ban export tai thoi diem Checkpoint B 16:05.
