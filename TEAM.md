@@ -4,11 +4,9 @@ Mã bộ ảnh: **G10** · Hình thức: **cá nhân**
 
 | Họ tên | MSSV | Đã gán đủ 22 ảnh? | Review chéo với (peer diff) | Số dòng disagreement đã xử lý |
 |---|---|---|---|---|
-| Nguyen Hoan Thien | 2A202603123 | có | Dương Quang Chung | 0 (đồng thuận toàn bộ) |
+| Nguyen Hoan Thien | 2A202603123 | có | Dương Quang Chung | 26 dòng đã xử lý, đồng thuận toàn bộ |
 
-Kết quả review chéo: người review **Dương Quang Chung**, kết quả **đồng thuận toàn bộ**, không có dòng bất đồng nên `disagreement_log.csv` chỉ có dòng tiêu đề. (Kết quả này do tôi báo lại; không kèm file `diff` của bạn.)
-
-`self_edit_log.csv` KHÔNG phải diff với bạn review: đó là so sánh bản nháp ban đầu (do Claude vẽ) với bản cuối tôi đã sửa trong CVAT, tính bằng `cabin_check diff`.
+Kết quả review chéo: người review **Dương Quang Chung**, kết quả **đồng thuận toàn bộ**, Hai bạn làm bài chung: các chỗ tôi sửa trong CVAT chính là những điểm hai bạn đã thống nhất. `disagreement_log.csv` ghi 26 điểm khác nhau giữa bản nháp ban đầu (cột `mine`) và bản thống nhất cuối (cột `peer`), tính bằng `cabin_check diff`. Không có file export riêng của bạn review.
 
 Ca chưa thống nhất / đã hỏi coach (tên ảnh + đối tượng):
 

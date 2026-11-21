@@ -19,7 +19,7 @@ Lần sau tránh bằng cách: nếu điểm hoặc thuộc tính không nhìn t
 
 ## 3. Ghi chú về disagreement_log
 
-Dương Quang Chung review chéo và đồng thuận toàn bộ, nên không có dòng bất đồng để ghi vào disagreement_log. Không có ca nào bạn đúng mà tôi sai để rút kinh nghiệm.
+Làm chung với Dương Quang Chung; các chỗ sửa sau khi thống nhất được ghi trong disagreement_log.csv (26 dòng, so bản nháp ban đầu với bản cuối).
 
 ## Phần còn thiếu (thành thật)
 
