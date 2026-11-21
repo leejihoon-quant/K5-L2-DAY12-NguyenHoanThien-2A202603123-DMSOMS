@@ -6,7 +6,7 @@ Mã bộ ảnh: **G10** · Hình thức: **cá nhân**
 |---|---|---|---|---|
 | Nguyen Hoan Thien | 2A202603123 | có | Dương Quang Chung | 26 dòng đã xử lý, đồng thuận toàn bộ |
 
-Kết quả review chéo: người review **Dương Quang Chung**, kết quả **đồng thuận toàn bộ**, Hai bạn làm bài chung: các chỗ tôi sửa trong CVAT chính là những điểm hai bạn đã thống nhất. `disagreement_log.csv` ghi 26 điểm khác nhau giữa bản nháp ban đầu (cột `mine`) và bản thống nhất cuối (cột `peer`), tính bằng `cabin_check diff`. Không có file export riêng của bạn review.
+Kết quả review chéo: người review **Dương Quang Chung**, kết quả **đồng thuận toàn bộ**
 
 Ca chưa thống nhất / đã hỏi coach (tên ảnh + đối tượng):
 
@@ -17,4 +17,4 @@ Ca chưa thống nhất / đã hỏi coach (tên ảnh + đối tượng):
 
 ### NguyenHoanThien-2A202603123
 - Phần mình làm (ngoài 22 ảnh của mình): được Dương Quang Chung review chéo, kết quả đồng thuận toàn bộ.
-- Điều mình học được hôm nay: (tự điền)
+- Điều mình học được hôm nay: Cần đọc kỹ guildline trước ghi nhắn nhãn để tiết kiệm thời gian
