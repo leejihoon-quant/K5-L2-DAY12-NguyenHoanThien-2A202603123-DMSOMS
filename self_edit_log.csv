@@ -1,0 +1,27 @@
+﻿image,label,field,issue,draft_ban_dau(Claude),final(ban_da_sua),verdict,guideline_rule,action
+D01.png,face13,count,khác số skeleton,1,0,final,GUIDE §4.6 + cabin_check: khong thay mat thi khong ve face13,"Bo skeleton o D01, D03"
+D02.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.08,,final,GUIDE §3 bang nhan: hand = dau ngon den co tay; box phai sat,Chinh lai box tay
+D02.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,final,GUIDE §3 bang nhan: hand = dau ngon den co tay; box phai sat,Chinh lai box tay
+D03.png,face,gaze_zone,khác giá trị (IoU=0.80),other,mirror_r,final,GUIDE §4.5: chon vung nhin theo anh; khong chac thi other,Chinh gaze_zone theo nhin lai anh
+D03.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,final,GUIDE §3 bang nhan: hand = dau ngon den co tay; box phai sat,Chinh lai box tay
+D03.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,final,GUIDE §3 bang nhan: hand = dau ngon den co tay; box phai sat,Chinh lai box tay
+D03.png,face13,count,khác số skeleton,1,0,final,GUIDE §4.6 + cabin_check: khong thay mat thi khong ve face13,"Bo skeleton o D01, D03"
+D04.png,face,gaze_zone,khác giá trị (IoU=1.00),other,road,final,GUIDE §4.5: chon vung nhin theo anh; khong chac thi other,Chinh gaze_zone theo nhin lai anh
+D04.png,face,glasses,khác giá trị (IoU=1.00),unknown,none,final,GUIDE §4.5: none khi khong deo kinh; unknown khi khong thay ro vung mat,Doi tu unknown sang none
+D04.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.44,,final,GUIDE §3 bang nhan: hand = dau ngon den co tay; box phai sat,Chinh lai box tay
+D04.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,final,GUIDE §3 bang nhan: hand = dau ngon den co tay; box phai sat,Chinh lai box tay
+D05.png,face13,right_eye_outer.outside,khác cờ,0,1,final,GUIDE §4.6: diem khong doan duoc thi danh outside,Chuyen diem sang outside
+D05.png,face13,right_eye_inner.outside,khác cờ,0,1,final,GUIDE §4.6: diem khong doan duoc thi danh outside,Chuyen diem sang outside
+D05.png,face13,right_eye_upper.outside,khác cờ,0,1,final,GUIDE §4.6: diem khong doan duoc thi danh outside,Chuyen diem sang outside
+D05.png,face13,right_eye_lower.outside,khác cờ,0,1,final,GUIDE §4.6: diem khong doan duoc thi danh outside,Chuyen diem sang outside
+D05.png,face13,mouth_right.outside,khác cờ,0,1,final,GUIDE §4.6: diem khong doan duoc thi danh outside,Chuyen diem sang outside
+D06.png,face,glasses,khác giá trị (IoU=0.81),unknown,none,final,GUIDE §4.5: none khi khong deo kinh; unknown khi khong thay ro vung mat,Doi tu unknown sang none
+D06.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.39,,final,GUIDE §3 bang nhan: hand = dau ngon den co tay; box phai sat,Chinh lai box tay
+D06.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,final,GUIDE §3 bang nhan: hand = dau ngon den co tay; box phai sat,Chinh lai box tay
+D06.png,face13,nose_tip.outside,khác cờ,0,1,final,GUIDE §4.6: diem khong doan duoc thi danh outside,Chuyen diem sang outside
+D06.png,face13,mouth_left.outside,khác cờ,0,1,final,GUIDE §4.6: diem khong doan duoc thi danh outside,Chuyen diem sang outside
+D06.png,face13,mouth_right.outside,khác cờ,0,1,final,GUIDE §4.6: diem khong doan duoc thi danh outside,Chuyen diem sang outside
+D06.png,face13,lip_upper.outside,khác cờ,0,1,final,GUIDE §4.6: diem khong doan duoc thi danh outside,Chuyen diem sang outside
+D06.png,face13,lip_lower.outside,khác cờ,0,1,final,GUIDE §4.6: diem khong doan duoc thi danh outside,Chuyen diem sang outside
+S01_ir.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,can kiem tra,"S01: ban rgb khong con box object, ban ir co 2 box cho cung 1 cai coc; hai anh phai nhat quan",Xem lai S01_rgb va S01_ir trong CVAT
+S01_rgb.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,can kiem tra,"S01: ban rgb khong con box object, ban ir co 2 box cho cung 1 cai coc; hai anh phai nhat quan",Xem lai S01_rgb va S01_ir trong CVAT
