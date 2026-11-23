@@ -4,9 +4,9 @@ Mã bộ ảnh: **G10** · Hình thức: **cá nhân**
 
 | Họ tên | MSSV | Đã gán đủ 22 ảnh? | Review chéo với (peer diff) | Số dòng disagreement đã xử lý |
 |---|---|---|---|---|
-| Nguyen Hoan Thien | 2A202603123 | có | Dương Quang Chung | 82 điểm khác từ `cabin_check diff`; verdict đang chờ hai bạn xem ảnh và chốt |
+| Nguyen Hoan Thien | 2A202603123 | có | Dương Quang Chung | 61/82 dòng đã có verdict và hành động (10 nhóm ca); các dòng còn lại chưa xử lý |
 
-Kết quả review chéo: người review **Dương Quang Chung**. Đã chạy `cabin_check diff` giữa `export_final.zip` của tôi và export của Chung trên 22 ảnh chung, ra **82 điểm khác nhau** (46 điểm là cờ `occluded` của `face13`; còn lại là thuộc tính mắt/kính, `seatbelt`, box `hand`/`person`/`object`, `infant_seat.facing`, `child_seat.occupied`). `disagreement_log.csv` liệt kê đủ 82 dòng kèm luật guideline liên quan; cột `verdict` và `action` do hai bạn điền sau khi cùng xem ảnh trong CVAT local, chưa phân xử xong.
+Kết quả review chéo: người review **Dương Quang Chung**. Đã chạy `cabin_check diff` giữa `export_final.zip` của tôi và export của Chung trên 22 ảnh chung, ra **82 điểm khác nhau** (46 điểm là cờ `occluded` của `face13`; còn lại là thuộc tính mắt/kính, `seatbelt`, box `hand`/`person`/`object`, `infant_seat.facing`, `child_seat.occupied`). `disagreement_log.csv` liệt kê đủ 82 dòng kèm luật guideline liên quan; 10 nhóm ca (61 dòng) đã được hai bạn đọc và thống nhất phương án: 3 dòng chốt `mine` (S02 `child_seat.occupied`, D01 `face13`), 2 dòng `ambiguous` hỏi coach (S02 `person`), còn lại ghi `ambiguous` kèm luật GUIDE hai bạn thống nhất áp dụng. Các dòng còn lại ngoài 10 nhóm này chưa xử lý.
 
 Ca chưa thống nhất / đã hỏi coach (tên ảnh + đối tượng):
 

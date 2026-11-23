@@ -19,7 +19,7 @@ Lần sau tránh bằng cách: nếu điểm hoặc thuộc tính không nhìn t
 
 ## 3. Ghi chú về disagreement_log
 
-Review chéo với Dương Quang Chung: `cabin_check diff` giữa export của tôi và của Chung ra 82 điểm khác nhau, ghi đủ trong disagreement_log.csv. Cột verdict và action chưa điền xong; hai bạn sẽ chốt từng dòng khi cùng xem ảnh.
+Review chéo với Dương Quang Chung: `cabin_check diff` giữa export của tôi và của Chung ra 82 điểm khác nhau, ghi đủ trong disagreement_log.csv. Hai bạn đã duyệt 10 nhóm ca (61 dòng) và ghi verdict/action; các dòng còn lại chưa xử lý.
 
 ## Phần còn thiếu (thành thật)
 
